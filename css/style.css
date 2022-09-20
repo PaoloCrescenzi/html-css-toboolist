@@ -1,3 +1,27 @@
 h1{
     display: inline-block;
 }
+
+main{
+    background-color: rgb(224, 224, 224);
+}
+
+h2{
+    display: inline-block;
+}
+
+.badge-new-task{
+    border-radius: 7px;
+    background-color: lightblue;
+    color: white;
+    padding: 7px;
+}
+
+.riquadro-bianco{
+
+}
+
+
+hr{
+    color: gray;
+}
