@@ -4,6 +4,7 @@ h1{
 
 main{
     background-color: rgb(224, 224, 224);
+    
 }
 
 h2{
@@ -14,7 +15,8 @@ h2{
     border-radius: 7px;
     background-color: lightblue;
     color: white;
-    padding: 7px;
+    padding: 5px;
+    display: inline-block;
 }
 
 .riquadro-bianco{
@@ -24,4 +26,26 @@ h2{
 
 hr{
     color: gray;
+}
+
+.add-task{
+    border-radius: 7px;
+    background-color: lightblue;
+    color: white;
+    padding: 7px;
+}
+
+.add-section{
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(140, 139, 139) ;
+    padding: 7px;
+}
+
+.badge-today-1{
+    border-radius: 7px;
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    display: inline-block;
 }
