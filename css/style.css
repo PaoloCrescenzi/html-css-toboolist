@@ -1,9 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: o;
+    padding: 0;
+}
+
+header{
+    padding: 0.5rem 1rem;
+}
+
+.img-logo{
+    vertical-align: middle;
+}
+
 h1{
     display: inline-block;
+    vertical-align: middle;
+    
 }
 
 main{
     background-color: rgb(224, 224, 224);
+    
     
 }
 
@@ -12,7 +29,7 @@ h2{
 }
 
 .badge-new-task{
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: lightblue;
     color: white;
     padding: 5px;
@@ -21,10 +38,12 @@ h2{
 }
 
 .riquadro-bianco{
-    border-radius: 10px;
-    background-color: aliceblue;
+    border-radius: 15px;
+    background-color: white;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 920px;
+    margin: 0 auto;
     
 
 }
@@ -35,7 +54,7 @@ hr{
 }
 
 .add-task{
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: lightblue;
     color: white;
     padding: 7px;
@@ -43,7 +62,7 @@ hr{
 }
 
 .add-section{
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255);
     color: rgb(140, 139, 139) ;
     padding: 7px;
@@ -51,7 +70,7 @@ hr{
 }
 
 .badge-today-1{
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: purple;
     color: white;
     padding: 5px;
@@ -60,7 +79,7 @@ hr{
 }
 
 .badge-today-2{
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: rgb(12, 188, 118);
     color: white;
     padding: 5px;
@@ -69,7 +88,7 @@ hr{
 }
 
 .badge-today-3{
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: rgb(255, 167, 16);
     color: white;
     padding: 5px;
@@ -78,7 +97,7 @@ hr{
 }
 
 .badge-upcoming-1{
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: rgb(255, 91, 233);
     color: white;
     padding: 5px;
@@ -87,7 +106,7 @@ hr{
 }
 
 .badge-upcoming-2{
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: rgb(154, 233, 44);
     color: white;
     padding: 5px;
