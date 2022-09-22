@@ -4,8 +4,16 @@
     padding: 0;
 }
 
+button{
+    padding: .5rem .7rem;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    
+}
+
 header{
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
 }
 
 .img-logo{
@@ -33,86 +41,72 @@ h2{
     
 }
 
-.badge-new-task{
-    border-radius: 10px;
-    background-color: lightblue;
-    color: white;
-    padding: 5px;
-    display: inline-block;
-    font-size: 12px;
-}
+
 
 .container{
     border-radius: 15px;
     background-color: white;
-    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     width: 920px;
     margin: 0 auto;
-    padding-left: 40px;
+    padding-left: 30px;
     
 }
 
+.buttons-nav{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding: .5rem 1rem;
+}
 
+.lista{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
-.add-task{
-    border-radius: 10px;
-    background-color: lightblue;
+.but-blue{
+    background-color: rgb(86, 86, 248);
     color: white;
-    padding: 7px;
-    font-size: 12px;
+}
+
+.but-gray{
     
+    color: lightgray;
+    border: 1px solid lightgray;
 }
 
-.add-section{
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(140, 139, 139) ;
-    padding: 7px;
-    font-size: 12px;
-}
-
-.badge-today-1{
-    border-radius: 10px;
-    background-color: purple;
+.but-editorial{
+    background-color: rgb(119, 144, 218);
     color: white;
-    padding: 5px;
-    display: inline-block;
-    font-size: 12px;
+    padding: 6px;
 }
 
-.badge-today-2{
-    border-radius: 10px;
-    background-color: rgb(12, 188, 118);
+.but-purple{
+    background-color: rgb(129, 0, 129);
     color: white;
-    padding: 5px;
-    display: inline-block;
-    font-size: 12px;
+    padding: 6px;
 }
 
-.badge-today-3{
-    border-radius: 10px;
-    background-color: rgb(255, 167, 16);
+.but-greens{
+    background-color: rgb(0, 180, 111);
     color: white;
-    padding: 5px;
-    display: inline-block;
-    font-size: 12px;
+    padding: 6px;
 }
 
-.badge-upcoming-1{
-    border-radius: 10px;
-    background-color: rgb(255, 91, 233);
+.but-orange{
+    background-color: orange;
     color: white;
-    padding: 5px;
-    display: inline-block;
-    font-size: 12px;
+    padding: 6px;
 }
 
-.badge-upcoming-2{
-    border-radius: 10px;
-    background-color: rgb(154, 233, 44);
+.but-pink{
+    background-color: rgb(255, 192, 242);
     color: white;
-    padding: 5px;
-    display: inline-block;
-    font-size: 12px;
+    padding: 6px;
+}
+
+.but-grenn{
+    background-color: rgb(95, 217, 13);
+    color: white;
+    padding: 6px;
 }
