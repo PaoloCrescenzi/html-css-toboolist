@@ -41,7 +41,13 @@ h2{
     
 }
 
+ul{
+    list-style: none;
+}
 
+.list-item{
+    margin-bottom: 2rem;
+}
 
 .container{
     border-radius: 15px;
