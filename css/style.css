@@ -37,8 +37,11 @@ main{
 }
 
 h2{
-    display: inline-block;
-    
+    display: inline-block; 
+}
+
+h3{
+    margin-bottom: .3rem;
 }
 
 ul{
